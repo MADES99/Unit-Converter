@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap');
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+ }
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+    background: #1F2937;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #6943FF;
+}
+
+.head h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #FFF;
+    margin-top: 30px;
+}
+
+.head input[type="text"] {
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: transparent;
+    font-weight: 800;
+    line-height: 24.393px;
+    text-align: center;
+    font-size: 58px;
+    color: #FFF;
+    margin: 30px 0px;
+}
+
+.head input[type="text"]:focus {
+    outline: none;
+}
+
+.head button {
+    border: none;
+    padding: 9px 27.5px;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin-bottom: 34px;
+    cursor: pointer;
+
+}
+
+.convert {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 36px;
+    padding-bottom: 30px;
+}
+
+.convert-box {
+    border-radius: 4.681px 0px 0px 0px;
+    background: #273549;
+    text-align: center;
+    line-height: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.convert-box h2 {
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.convert-box p {
+    color: #FFF;
+    font-size: 14px;
+}
+
+
+#convert-2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
